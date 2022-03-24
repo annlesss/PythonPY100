@@ -42,7 +42,7 @@ files:
       length: 38
       offset: 576
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Unchecked
     encrypted_possible_answer: |-
       for index, surname in enumerate(surname_list, start=1):
