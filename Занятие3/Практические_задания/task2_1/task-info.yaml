@@ -4,17 +4,17 @@ files:
   visible: true
   placeholders:
   - offset: 64
-    length: 78
+    length: 86
     placeholder_text: '...  # TODO установить текущую сумму, которая будет с каждым
       годом уменьшаться'
     initial_state:
       length: 78
       offset: 64
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: start_money
-  - offset: 168
+  - offset: 299
     length: 39
     placeholder_text: '# TODO найти минимальное количество лет'
     initial_state:
@@ -22,7 +22,7 @@ files:
       offset: 168
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: |-
       while True:
               current_money = current_money * (1 - inflation)
@@ -45,6 +45,6 @@ files:
 - name: __init__.py
   visible: false
   learner_created: false
-status: Unchecked
+status: Solved
 record: -1
 post_submission_on_open: true

@@ -19,7 +19,7 @@ files:
               result *= num
 
           return result
-  - offset: 73
+  - offset: 201
     length: 68
     placeholder_text: '# TODO распечатать результат выполнения функции factorial от
       числа 5'
@@ -27,7 +27,7 @@ files:
       length: 68
       offset: 73
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Unchecked
     encrypted_possible_answer: print(factorial(5))
   text: |
@@ -41,4 +41,8 @@ files:
   visible: false
   learner_created: false
 status: Unchecked
+feedback:
+  message: Failed to launch checking. For more information, see <a href="https://plugins.jetbrains.com/plugin/10081-edutools/docs/troubleshooting-guide.html#failed_to_launch_checking">the
+    Troubleshooting guide</a>
+  time: Thu, 31 Mar 2022 17:30:51 UTC
 record: -1
