@@ -1,4 +1,5 @@
 def is_exist_fruit(cart_dict: dict, fruit_key: str) -> bool:
+    return True if fruit_key in cart_dict else False
     if fruit_key in cart_dict:  # TODO записать с помощью inline if
         return True
     else:

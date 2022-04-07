@@ -1,5 +1,5 @@
 def dict_over_for_loop(n: int) -> dict:
-    dict_ = {}
+    dict_ = {}             # пустой словарь
     for i in range(n):
         dict_[i] = i ** 2  # присвоение словарю нового значения по несуществующему ранее ключу
 
@@ -7,7 +7,7 @@ def dict_over_for_loop(n: int) -> dict:
 
 
 def dict_comprehension(n: int) -> dict:
-    return {...}  # TODO записать dict comprehension
+    return { i: i ** 2 for i in range(n) }  # TODO записать dict comprehension  # : так как первый i это ключ
 
 
 if __name__ == "__main__":
